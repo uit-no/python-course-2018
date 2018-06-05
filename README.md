@@ -1,4 +1,4 @@
-﻿
+
 
 # Preliminary schedule
 
