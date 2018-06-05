@@ -1,13 +1,15 @@
 ﻿
 
-# Session 1 (Lars, Mathias)
+# Preliminary schedule
+
+## Session 1 (Lars, Mathias)
 
 - Functions, data structures, and syntax
 - how to print things, f-strings
 - PEP8, pycodestyle, pylint
 
 
-## Examples/challenges:
+### Examples/challenges:
 
 - Playing with lists / dictionaries in the REPL
 - Slicing lists
@@ -18,7 +20,7 @@
 - for functions we start with some repetitive code and abstract it into a function
 
 
-# Session 2 (Mathias, Lars)
+## Session 2 (Mathias, Lars)
 
 - string handling and parsing
 - f-strings vs .format
@@ -32,7 +34,8 @@
 - extracting data
 - simple example of running non-python out of python
 
-## Examples (people can pick their fav exercises):
+
+### Examples (people can pick their fav exercises):
 
 - extract some series of numbers from a file and form a list
 - FASTA parsing
@@ -40,7 +43,7 @@
 - write a csv reader, later work with the csv module
 
 
-# Session 3 (Radovan)
+## Session 3 (Radovan)
 
 - memory example for reading a large file
 - parsing large files, iterators
@@ -50,7 +53,7 @@
 - reading and parsing a large-ish file
 
 
-## Structuring projects: half a session
+### Structuring projects: half a session
 
 - understanding imports
 - underscore convention
@@ -60,14 +63,14 @@
 - pip/conda install, requirements.txt
 
 
-# Session 4 (Dan)
+## Session 4 (Dan)
 
 - plotting
 - Jupyter notebooks
 - hello world demo of pandas
 
 
-# Session 5
+## Session 5
 
 - “talk to the doctor”, bring your own real-life “problems”
 - these are discussed together
