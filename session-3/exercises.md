@@ -22,6 +22,7 @@
    - 10 movies with highest number of votes.
    - 10 movies with highest ratings.
    - 10 movies with lowest ratings.
+   - 10 most popular comedies.
 - Rewrite your code to use dictionaries.
 - Create a memory profile for your code (we will detail how).
 - Discuss what problems we will meet if the dataset grows in size and how you would overcome these.
