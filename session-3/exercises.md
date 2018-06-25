@@ -7,6 +7,7 @@
   - Counts the number of "Radiohead" albums.
   - Prints out all titles of "Radiohead" albums in this list.
   - Prints out all titles of an artist/band that can be provided as command line argument.
+  - Adjust your script so that it is case insensitive to input.
   - Prints the 5 artists/band with most albums in this list.
   - Figures out the most influential year(s).
   - Plot a graph with number of albums as a function of years (but also OK to postpone this to plotting session).
