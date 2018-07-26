@@ -17,8 +17,8 @@ Old MacDonald had a farm
 E-I-E-I-O
 ```
 
-1. Write a function which returns exactly this stanza. There are many ways to achieve this and we will discuss several solutions.
-2. Adapt the function to accept the animal and sound as input and return the corresponding stanza.
+1. Write a function which returns exactly this stanza.
+2. Adapt the function to accept the animal and sound as input and return the corresponding stanza. There are many ways to achieve this and we will discuss several solutions.
 3. Adapt the function to accept a dictionary of animals and sounds and return the entire song.
 
 
