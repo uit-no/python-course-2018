@@ -31,10 +31,10 @@ We will extract a couple of results from this output file: https://gitlab.com/da
 
 Consider the following example POV-Ray input file:
 
-#include "colors.inc"
-
 ```povray
 // source: http://www.csb.yale.edu/userguides/graphics/povray/demo.pov.html
+
+#include "colors.inc"
 
 background { color Cyan }
 
