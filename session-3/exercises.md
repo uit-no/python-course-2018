@@ -32,4 +32,5 @@
 
 # Exercise 3: Structuring projects
 
-Waiting for a good inspiration ...
+We will take one big script which also imports modules from pip and structure
+it and move dependencies to requirements.txt or Pipfile.

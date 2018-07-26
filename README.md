@@ -58,7 +58,7 @@
 - understanding imports
 - underscore convention
 - collecting functions into modules
-- example can one big script: divide into modules and import stuff
+- example will be one big script: divide into modules and import stuff
 - only mention packages
 - pip/conda install, requirements.txt
 
