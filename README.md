@@ -35,14 +35,6 @@
 - simple example of running non-python out of python
 
 
-### Examples (people can pick their fav exercises):
-
-- extract some series of numbers from a file and form a list
-- FASTA parsing
-- extracting numbers from a txt file based on “anchors”/keywords/strings
-- write a csv reader, later work with the csv module
-
-
 ## Session 3 (Radovan)
 
 - memory example for reading a large file
