@@ -22,22 +22,26 @@
 
 ## Session 2 (Radovan, Lars)
 
-- string handling: f-strings vs .format, “+” vs. append/split/join
-- basic file input/output
-- parsing and data extraction
-- passing command line arguments to a script
-- error handling: IOError, traceback, try/except
-- simple example of running non-python out of python
+- Topics
+  - string handling: f-strings vs .format, “+” vs. append/split/join
+  - basic file input/output
+  - parsing and data extraction
+  - passing command line arguments to a script
+  - error handling: IOError, traceback, try/except
+  - simple example of running non-python out of python
+- [Exercises](session-2/exercises.md)
 
 
 ## Session 3 (Radovan)
 
-- memory example for reading a large file
-- parsing large files, iterators
-- csv: reading writing with the csv module
-- prepare an example which prints consumed memory
-- then we show naive way and better way
-- reading and parsing a large-ish file
+- Topics
+  - memory example for reading a large file
+  - parsing large files, iterators
+  - csv: reading writing with the csv module
+  - prepare an example which prints consumed memory
+  - then we show naive way and better way
+  - reading and parsing a large-ish file
+- [Exercises](session-3/exercises.md)
 
 
 ### Structuring projects: half a session
