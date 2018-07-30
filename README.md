@@ -62,7 +62,7 @@
 - hello world demo of pandas
 
 
-## Session 5
+## Session 5 (all instructors)
 
 - “talk to the doctor”, bring your own real-life “problems”
 - these are discussed together
