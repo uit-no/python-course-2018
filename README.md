@@ -20,7 +20,7 @@
 - for functions we start with some repetitive code and abstract it into a function
 
 
-## Session 2 (Radovan, Lars)
+## Session 2: String handling and input/output (Radovan, Lars)
 
 - Topics
   - string handling: f-strings vs .format, “+” vs. append/split/join
@@ -32,7 +32,7 @@
 - [Exercises](session-2/exercises.md)
 
 
-## Session 3 (Radovan)
+## Session 3a: Input/output on larger files (Radovan)
 
 - Topics
   - memory example for reading a large file
@@ -41,17 +41,18 @@
   - prepare an example which prints consumed memory
   - then we show naive way and better way
   - reading and parsing a large-ish file
-- [Exercises](session-3/exercises.md)
+- [Exercises](session-3/exercises-a.md)
 
 
-### Structuring projects: half a session
+### Session 3b: Structuring projects: half a session
 
-- understanding imports
-- underscore convention
-- collecting functions into modules
-- example will be one big script: divide into modules and import stuff
-- only mention packages
-- pip/conda install, requirements.txt
+- Topics
+  - understanding imports
+  - underscore convention
+  - collecting functions into modules
+  - we will only mention packages
+  - pip/conda install and requirements.txt
+- [Exercises](session-3/exercises-b.md)
 
 
 ## Session 4 (Dan)

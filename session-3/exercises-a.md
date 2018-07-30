@@ -28,9 +28,3 @@
 - Create a memory profile for your code (we will detail how).
 - Discuss what problems we will meet if the dataset grows in size and how you would overcome these.
 - Rewrite your code so that it can work with datasets of in principle any size.
-
-
-# Exercise 3.3: Structuring projects
-
-We will take one big script which also imports modules from pip and structure
-it and move dependencies to requirements.txt or Pipfile.
