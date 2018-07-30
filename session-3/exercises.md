@@ -1,6 +1,6 @@
 
 
-# Exercise 1: Rolling Stone magazine's 2012 list of 500 greatest albums of all time
+# Exercise 3.1: Rolling Stone magazine's 2012 list of 500 greatest albums of all time
 
 - Create a file `top500.csv` and copy-paste https://www.datazar.com/file/fab8ac573-12b3-4b30-9f1d-2bd5ff62b1e8 into it.
 - Create a script that:
@@ -14,7 +14,7 @@
 - Port your script to use the csv module.
 
 
-# Exercise 2: Having fun with IMDb data files
+# Exercise 3.2: Having fun with IMDb data files
 
 - From https://datasets.imdbws.com download `title.basics.tsv.gz` and `title.ratings.tsv.gz`.
 - Extract these files.
@@ -30,7 +30,7 @@
 - Rewrite your code so that it can work with datasets of in principle any size.
 
 
-# Exercise 3: Structuring projects
+# Exercise 3.3: Structuring projects
 
 We will take one big script which also imports modules from pip and structure
 it and move dependencies to requirements.txt or Pipfile.
