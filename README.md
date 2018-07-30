@@ -22,16 +22,11 @@
 
 ## Session 2 (Radovan, Lars)
 
-- string handling and parsing
-- f-strings vs .format
-- parsing problem
-- basic file I/O
-- passing arguments from command line
+- string handling: f-strings vs .format, “+” vs. append/split/join
+- basic file input/output
+- parsing and data extraction
+- passing command line arguments to a script
 - error handling: IOError, traceback, try/except
-- example first write “to screen”, then writing something into a file
-- string handling, also consider “+” vs. append/split/join
-- preparing input files from a template
-- extracting data
 - simple example of running non-python out of python
 
 
