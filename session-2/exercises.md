@@ -68,8 +68,8 @@ create input files.
 
 Write a Python script which executes a shell command.
 
-- Using `os.system()`
-- Then using `suprocess.check_output()`
+- Using `os.system()`, e.g. `os.system('echo hello from your shell')`
+- Then using `suprocess.check_output()` e.g. `suprocess.check_output(['echo', 'hello', 'from', 'your', 'shell'])`
 
 Discuss the advantages/disadvantages of the two approaches. Discuss when it could be useful
 to execute a shell command or a binary from Python.
