@@ -1,8 +1,13 @@
 
 
-# Exercise 2.1: String handling and templating
+# Exercise 2.1: String concatenation
 
-Introduction to this exercise will be a module on f-strings vs .format, “+” vs. append/split/join.
+Write a function which receives a name, e.g. "James Bond" and prints: "My name is Bond, James Bond.".
+
+We will discuss "+" vs. append/split/join and f-strings vs .format.
+
+
+# Exercise 2.2: String handling and templating
 
 This is a stanza from a song we probably all know:
 ```
@@ -24,7 +29,7 @@ E-I-E-I-O
 4. Adapt the function to accept a dictionary of animals and sounds and return the entire song.
 
 
-# Exercise 2.2: Extracting some data from a file
+# Exercise 2.3: Extracting some data from a file
 
 We will extract a couple of results from this output file: https://gitlab.com/dalton/dalton/blob/master/DALTON/test/dft_properties_sym/result/dft_properties_sym_H2O_cc-pVDZ.out
 
@@ -33,7 +38,7 @@ First we hard-code the path into the script but later we adapt the script to acc
 We then try to parse a file which does not exist and discuss the backtrace and try to catch the exception.
 
 
-# Exercise 2.3: Based on a program input template create a series of files
+# Exercise 2.4: Based on a program input template create a series of files
 
 Consider the following example POV-Ray input file:
 
@@ -64,7 +69,7 @@ either the sphere radius or the sphere origin or both. Create a script to
 create input files.
 
 
-# Exercise 2.4: Running a shell command out of Python
+# Exercise 2.5: Running a shell command out of Python
 
 Write a Python script which executes a shell command.
 
