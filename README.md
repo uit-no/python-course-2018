@@ -44,7 +44,7 @@
 - [Exercises](session-3/exercises-a.md)
 
 
-### Session 3b: Structuring projects: half a session
+## Session 3b: Structuring projects (Radovan)
 
 - Topics
   - understanding imports
