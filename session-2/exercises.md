@@ -68,6 +68,9 @@ Imagine you wish to create many (tens or hundreds) input files where you vary
 either the sphere radius or the sphere origin or both. Create a script to
 create input files.
 
+It is also totally fine if you prefer to work on a similar example which is closer
+to your domain or workflow.
+
 
 # Exercise 2.5: Running a shell command out of Python
 
