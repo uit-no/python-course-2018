@@ -1,8 +1,8 @@
 
 
-# Preliminary schedule
+# Course schedule
 
-## Session 1 (Lars, Radovan)
+## Session 1: Introduction (Lars)
 
 - Functions, data structures, and syntax
 - how to print things, f-strings
@@ -20,7 +20,7 @@
 - for functions we start with some repetitive code and abstract it into a function
 
 
-## Session 2: String handling and input/output (Radovan, Lars)
+## Session 2: String handling and input/output (Radovan)
 
 - Topics
   - string handling: f-strings vs .format, “+” vs. append/split/join
@@ -28,20 +28,25 @@
   - parsing and data extraction
   - passing command line arguments to a script
   - error handling: IOError, traceback, try/except
-  - simple example of running non-python out of python
-- [Exercises](session-2/exercises.md)
+- [2.1](session-2/part-1.md)
+- [2.2](session-2/part-2.md)
+- [2.3](session-2/part-3.md)
 
 
 ## Session 3a: Input/output on larger files (Radovan)
 
 - Topics
+  - templating
+  - simple example of running non-python out of python
   - memory example for reading a large file
   - parsing large files, iterators
   - csv: reading writing with the csv module
   - prepare an example which prints consumed memory
   - then we show naive way and better way
   - reading and parsing a large-ish file
-- [Exercises](session-3/exercises-a.md)
+- [3.1](session-3/part-1.md)
+- [3.2](session-3/part-2.md)
+- [3.3](session-3/part-3.md)
 
 
 ## Session 3b: Structuring projects (Radovan)
@@ -52,19 +57,19 @@
   - collecting functions into modules
   - we will only mention packages
   - pip/conda install and requirements.txt
-- [Exercises](session-3/exercises-b.md)
+- [3.4](session-3/part-4.md)
 
 
-## Session 4 (Dan)
+## Session 4: Jupyter, plotting, and Pandas (Dan)
 
 - plotting
 - Jupyter notebooks
 - hello world demo of pandas
 
 
-## Session 5 (all instructors)
+## Session 5: "talk to the doctor" (all instructors)
 
-- “talk to the doctor”, bring your own real-life “problems”
+- bring your own real-life "problems"
 - these are discussed together
-- instructors try to live-code solutions for real-life challenges with feedback
-  from everybody
+- instructors try to live-code solutions for real-life challenges
+  with feedback from everybody
