@@ -1,14 +1,57 @@
+three sessions in the morning:
+
+- 9:00 - 10:00
+- 10:15 - 11:00
+- 11:15 - 12:00
 
 
-# Exercise 2.1: String concatenation
+# Recap: lists (10 minutes)
+
+example list of strings and show how we append to it
+
+also show how to pop
+
+
+# String handling (15 minutes)
+
+We will discuss "+" vs. append/split/join and f-strings vs .format.
+
+explain why split and join is useful
+
+how to build a string out of very many small strings
+
+
+# Recap: defining functions (10 minutes)
+
+function which shouts (uppercases everything)
+
+
+# Collaborative challenge: Function which manipulates a string (10 minutes)
+
+function which splits a string and joins on a character
+
+
+# Exercise 2.1: String concatenation (15 minutes)
 
 Write a function which receives a name, e.g. "James Bond" and prints: "My name is Bond, James Bond".
 
-Start first with printing "My name is James Bond".
-Work on solutions incrementally.
-It is totally OK to solve it only halfway, but if you have time left, go for the "My name is Bond, James Bond".
+- Start first with printing "My name is James Bond".
+- Work on solutions incrementally.
+- It is totally OK to solve it only halfway, but if you have time left,
+  go for the "My name is Bond, James Bond".
 
-We will discuss "+" vs. append/split/join and f-strings vs .format.
+(15 minutes break)
+
+
+# File I/O, part 1
+
+Start by discussing the James Bond function: printing inside the function vs. returning the result
+and printing outside.
+
+We motivate why we rather return it and we discuss file I/O:
+
+- writing to a file
+- reading from a file
 
 
 # Exercise 2.2: String handling and templating
@@ -31,6 +74,15 @@ E-I-E-I-O
 2. Adapt the function to accept the animal and sound as input and return the corresponding stanza. There are many ways to achieve this and we will discuss several solutions.
 3. Make it possible to write the result either to screen or to a file.
 4. Adapt the function to accept a dictionary of animals and sounds and return the entire song (do not worry about the exact order of stanzas).
+
+Discuss and motivate why this is useful.
+
+
+# File I/O, part 2
+
+Reading and parsing line by line.
+
+Also show enumerate().
 
 
 # Exercise 2.3: Extracting some data from a file
