@@ -1,8 +1,8 @@
 
 
-# Preliminary schedule
+# Course schedule
 
-## Session 1 (Lars)
+## Session 1: Introduction (Lars)
 
 - Functions, data structures, and syntax
 - how to print things, f-strings
