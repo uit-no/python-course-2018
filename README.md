@@ -60,7 +60,7 @@
 - [3.4](session-3/part-4.md)
 
 
-## Session 4 (Dan)
+## Session 4: Jupyter, plotting, and Pandas (Dan)
 
 - plotting
 - Jupyter notebooks
