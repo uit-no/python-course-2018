@@ -28,21 +28,23 @@
   - parsing and data extraction
   - passing command line arguments to a script
   - error handling: IOError, traceback, try/except
-  - simple example of running non-python out of python
-- [Part 1](session-2/part-1.md)
-- [Part 2](session-2/part-2.md)
-- [Part 3](session-2/part-3.md)
+- [2.1](session-2/part-1.md)
+- [2.2](session-2/part-2.md)
+- [2.3](session-2/part-3.md)
 
 
 ## Session 3a: Input/output on larger files (Radovan)
 
 - Topics
+  - templating
+  - simple example of running non-python out of python
   - memory example for reading a large file
   - parsing large files, iterators
   - csv: reading writing with the csv module
   - prepare an example which prints consumed memory
   - then we show naive way and better way
   - reading and parsing a large-ish file
+- [3.1](session-3/part-1.md)
 - [Exercises](session-3/exercises-a.md)
 
 
