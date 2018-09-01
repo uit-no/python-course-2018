@@ -1,3 +1,4 @@
+(16:15 - 17:00)
 
 
 # Exercise 3.3: Structuring projects

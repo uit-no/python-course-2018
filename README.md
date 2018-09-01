@@ -45,7 +45,8 @@
   - then we show naive way and better way
   - reading and parsing a large-ish file
 - [3.1](session-3/part-1.md)
-- [Exercises](session-3/exercises-a.md)
+- [3.2](session-3/part-2.md)
+- [3.3](session-3/part-3.md)
 
 
 ## Session 3b: Structuring projects (Radovan)
@@ -56,7 +57,7 @@
   - collecting functions into modules
   - we will only mention packages
   - pip/conda install and requirements.txt
-- [Exercises](session-3/exercises-b.md)
+- [3.4](session-3/part-4.md)
 
 
 ## Session 4 (Dan)
