@@ -2,7 +2,7 @@
 
 # Preliminary schedule
 
-## Session 1 (Lars, Radovan)
+## Session 1 (Lars)
 
 - Functions, data structures, and syntax
 - how to print things, f-strings
@@ -20,7 +20,7 @@
 - for functions we start with some repetitive code and abstract it into a function
 
 
-## Session 2: String handling and input/output (Radovan, Lars)
+## Session 2: String handling and input/output (Radovan)
 
 - Topics
   - string handling: f-strings vs .format, “+” vs. append/split/join
