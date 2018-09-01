@@ -67,9 +67,9 @@
 - hello world demo of pandas
 
 
-## Session 5 (all instructors)
+## Session 5: "talk to the doctor" (all instructors)
 
-- “talk to the doctor”, bring your own real-life “problems”
+- bring your own real-life "problems"
 - these are discussed together
-- instructors try to live-code solutions for real-life challenges with feedback
-  from everybody
+- instructors try to live-code solutions for real-life challenges
+  with feedback from everybody
