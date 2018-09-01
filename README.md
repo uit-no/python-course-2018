@@ -29,7 +29,9 @@
   - passing command line arguments to a script
   - error handling: IOError, traceback, try/except
   - simple example of running non-python out of python
-- [Exercises](session-2/exercises.md)
+- [Part 1](session-2/part-1.md)
+- [Part 2](session-2/part-2.md)
+- [Part 3](session-2/part-3.md)
 
 
 ## Session 3a: Input/output on larger files (Radovan)
