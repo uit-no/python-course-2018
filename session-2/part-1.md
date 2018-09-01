@@ -7,6 +7,10 @@ example list of strings and show how we append to it
 
 also show how to pop
 
+number of elements
+
+check whether an element is in the list
+
 
 # String handling (15 minutes)
 
@@ -19,7 +23,7 @@ how to build a string out of very many small strings
 
 # Recap: defining functions (10 minutes)
 
-function which shouts (uppercases everything)
+write a function which shouts (uppercases everything)
 
 
 # Collaborative challenge: Function which manipulates a string (10 minutes)
@@ -27,9 +31,9 @@ function which shouts (uppercases everything)
 function which splits a string and joins on a character
 
 
-# Exercise 2.1: String concatenation (15 minutes)
+# Exercise 2.1: String manipulation (15 minutes)
 
-Write a function which receives a name, e.g. "James Bond" and prints: "My name is Bond, James Bond".
+Write a function which receives a string, e.g. "James Bond" and prints: "My name is Bond, James Bond".
 
 - Start first with printing "My name is James Bond".
 - Work on solutions incrementally.

@@ -41,3 +41,7 @@ Discuss and motivate why this is useful.
 Reading and parsing line by line.
 
 Also show enumerate().
+
+We will read the song that we have written, line by line,
+and our goal is to find only the lines which contain a specific animal.
+Extend the example to also print the line numbers of these lines.
