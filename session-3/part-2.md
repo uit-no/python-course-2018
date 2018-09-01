@@ -3,9 +3,8 @@
 
 # Exercise 3.1: Rolling Stone magazine's 2012 list of 500 greatest albums of all time
 
-(provide a wget-able address)
+Fetch this file to your disk: https://raw.githubusercontent.com/uit-no/python-course-2018/master/data/top-500.csv
 
-- Create a file `top500.csv` and copy-paste https://www.datazar.com/file/fab8ac573-12b3-4b30-9f1d-2bd5ff62b1e8 into it.
 - Create a script that:
   - Counts the number of "Radiohead" albums.
   - Prints out all titles of "Radiohead" albums in this list.
