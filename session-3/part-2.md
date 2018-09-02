@@ -1,9 +1,23 @@
 (14:15 - 15:00)
 
 
-# Exercise 3.1: Rolling Stone magazine's 2012 list of 500 greatest albums of all time
+# Exercise 3.1: Rolling Stone magazine 2012 list of 500 greatest albums of all time
 
-Fetch this file to your disk: https://raw.githubusercontent.com/uit-no/python-course-2018/master/data/top-500.csv
+Fetch this file to your disk:
+https://raw.githubusercontent.com/uit-no/python-course-2018/master/data/top-500.csv
+
+You can download it directly using the command line:
+
+```shell
+$ wget https://raw.githubusercontent.com/uit-no/python-course-2018/master/data/top-500.csv
+```
+
+If you don't have `wget` you can try `curl` instead:
+
+```shell
+$ curl https://raw.githubusercontent.com/uit-no/python-course-2018/master/data/top-500.csv --output top-500.csv
+```
+
 
 - Create a script that:
   - Counts the number of "Radiohead" albums.
