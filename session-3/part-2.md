@@ -3,6 +3,9 @@
 
 # Rolling Stone magazine 2012 list of 500 greatest albums of all time
 
+In this session we will have fun with the
+["Rolling Stone's definitive list of the 500 greatest albums of all time"](https://www.rollingstone.com/music/music-lists/500-greatest-albums-of-all-time-156826/).
+
 Fetch this file to your disk:
 https://raw.githubusercontent.com/uit-no/python-course-2018/master/session-3/data/top-500.csv
 
