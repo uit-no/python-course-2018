@@ -12,13 +12,13 @@ def greet(name):
 
 
 # just to test it works
-print(greet('john'))
+print(greet('bob'))
 ```
 
 Write a script called `main.py` with the following code:
 
 ```python
-message = greet('michael')
+message = greet('alice')
 
 print(message)
 ```
@@ -31,8 +31,8 @@ print(message)
 ```shell
 $ python main.py
 
-hello john, how is it going?
-hello michael, how is it going?
+hello bob, how is it going?
+hello alice, how is it going?
 ```
 
 - Discuss why we see this.
