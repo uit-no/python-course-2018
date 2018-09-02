@@ -40,7 +40,8 @@ hello alice, how is it going?
 
 ```python
 if __name__ == '__main__':
-    ...
+    # ...
+    # ...
 ```
 
 
