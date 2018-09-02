@@ -14,6 +14,7 @@ it and move dependencies to requirements.txt or Pipfile.
 - Collect code into functions. Discuss why.
 - Collect functions into modules. Discuss why.
 - Collect dependencies into `requirements.txt`. Discuss why.
+- Check your code with `pycodestyle`.
 
 
 Discuss and motivate the:
