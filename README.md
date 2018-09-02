@@ -45,7 +45,6 @@
   - simple example of running non-python out of python
   - memory example for reading a large file
   - parsing large files, iterators
-  - csv: reading writing with the csv module
   - prepare an example which prints consumed memory
   - then we show naive way and better way
   - reading and parsing a large-ish file
