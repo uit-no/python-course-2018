@@ -35,3 +35,4 @@ Later adjust your script so that it is case insensitive to input.
 - Plot a graph with number of albums as a function of years
   (but also OK to postpone this to plotting session).
 - Port your script to use the [csv module](https://docs.python.org/3/library/csv.html).
+- Generalize your code to accept wildcards (regular expressions).
