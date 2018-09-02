@@ -2,11 +2,16 @@
 
 # Course schedule
 
-## Session 1: Introduction (Lars)
+## Session 1: Introduction to programming and Python (Lars)
 
-- Functions, data structures, and syntax
-- how to print things, f-strings
-- PEP8, pycodestyle, pylint
+- [First steps](session-1/first\ contact.ipynb)
+  - expressions, statements, variables, calling functions
+  - basic data types and objects
+  - how to print things, f-strings
+  - basic control flow (if-then-else, while)
+  - writing functions
+- Python's useful data structures: list, tuple, dict, [set]
+- [PEP8, pycodestyle, pylint]
 
 
 ### Examples/challenges:
