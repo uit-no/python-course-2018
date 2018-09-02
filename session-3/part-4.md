@@ -6,18 +6,18 @@
 Write a function in one module and import it into another module.
 
 
-# Exercise 3.3: Structuring projects
+# Exercise: Structuring projects
 
-We will take one big script which also imports modules from pip and structure
-it and move dependencies to requirements.txt or Pipfile.
+As an exercise we will improve an [example script](structuring-exercise/example.py).
 
-- Collect code into functions. Discuss why.
-- Collect functions into modules. Discuss why.
-- Collect dependencies into `requirements.txt`. Discuss why.
+- First discuss the possible problems with this script.
+- Collect all code into functions. Discuss why.
+- Collect reusable functions into modules. Discuss why.
+- If you introduce external dependencies,
+  collect the dependencies into `requirements.txt`. Discuss why.
 - Check your code with `pycodestyle`.
 
-
-Discuss and motivate the:
+Together we will discuss and motivate this structure:
 
 ```python
 if __name__ == '__main__':
