@@ -7,18 +7,18 @@ In this session we will have fun with the
 ["Rolling Stone's definitive list of the 500 greatest albums of all time"](https://www.rollingstone.com/music/music-lists/500-greatest-albums-of-all-time-156826/).
 
 Fetch this file to your disk:
-https://raw.githubusercontent.com/uit-no/python-course-2018/master/session-3/data/top-500.csv
+https://raw.githubusercontent.com/uit-no/python-course-2018/master/session-3/data/top-500.txt
 
 You can download it directly using the command line:
 
 ```shell
-$ wget https://raw.githubusercontent.com/uit-no/python-course-2018/master/session-3/data/top-500.csv
+$ wget https://raw.githubusercontent.com/uit-no/python-course-2018/master/session-3/data/top-500.txt
 ```
 
 If you don't have `wget` you can try `curl` instead:
 
 ```shell
-$ curl https://raw.githubusercontent.com/uit-no/python-course-2018/master/session-3/data/top-500.csv --output top-500.csv
+$ curl https://raw.githubusercontent.com/uit-no/python-course-2018/master/session-3/data/top-500.txt --output top-500.txt
 ```
 
 ## Exercise
@@ -37,5 +37,4 @@ Later adjust your script so that it is case insensitive to input.
 - Find the 5 artists/band with most albums in this list.
 - Plot a graph with number of albums as a function of years
   (but also OK to postpone this to plotting session).
-- Port your script to use the [csv module](https://docs.python.org/3/library/csv.html).
 - Generalize your code to accept wildcards (regular expressions).
