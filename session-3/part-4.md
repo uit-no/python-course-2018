@@ -3,7 +3,45 @@
 
 # Show how imports work
 
-Write a function in one module and import it into another module.
+Write a script called `hello.py` with the following code:
+
+```python
+def greet(name):
+    message = 'hello {0}, how is it going?'.format(name)
+    return message
+
+
+# just to test it works
+print(greet('john'))
+```
+
+Write a script called `main.py` with the following code:
+
+```python
+message = greet('michael')
+
+print(message)
+```
+
+- Test `hello.py`.
+- Try `main.py`. It fails, discuss why.
+- Together fix `main.py`.
+- Once you fix `main.py` you will see this output:
+
+```shell
+$ python main.py
+
+hello john, how is it going?
+hello michael, how is it going?
+```
+
+- Discuss why we see this.
+- Solve this problem by introducing this structure:
+
+```python
+if __name__ == '__main__':
+    ...
+```
 
 
 # Exercise: Structuring projects
@@ -11,13 +49,16 @@ Write a function in one module and import it into another module.
 As an exercise we will improve an [example script](structuring-exercise/example.py).
 
 In groups of two:
+
 - First test it out and browse it a bit and read the code.
 
 Together:
+
 - We answer questions about the code.
-- We discuss the possible problems with this script.
+- We discuss the possible problems or bugs in this script.
 
 In groups of two:
+
 - Collect all code into functions. Discuss why.
 - Collect reusable functions into modules. Discuss why.
 - If you introduce external dependencies,
@@ -25,10 +66,6 @@ In groups of two:
 - Check your code with `pycodestyle`.
 
 Together:
-- We discuss possible solutions.
-- We will discuss and motivate this structure:
 
-```python
-if __name__ == '__main__':
-    ...
-```
+- We discuss possible solutions.
+- We discuss `requirements.txt`.
