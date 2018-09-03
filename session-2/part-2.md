@@ -48,18 +48,18 @@ E-I-E-I-O
    return the entire song (do not worry about the exact order of stanzas), like here:
 
 ```python
-def song(animals_and_sounds):
+def song(sounds):
     # ...
-    for animal, sound in animals_and_sounds.items():
+    for animal, sound in sounds.items():
         # ...
     # ...
 
 
-animals_and_sounds = {'cow': 'moo',
-                      'pig': 'snort',
-                      'duck': 'quack'}
+sounds = {'cow': 'moo',
+          'pig': 'snort',
+          'duck': 'quack'}
 
-print(song(animals_and_sounds))
+print(song(sounds))
 ```
 
 Discuss and motivate why this can be useful.
