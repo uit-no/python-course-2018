@@ -1,7 +1,8 @@
-(14:15 - 15:00)
 
 
-# Rolling Stone magazine 2012 list of 500 greatest albums of all time
+# Session 3.2: Data analysis (14:15 - 15:00)
+
+## Rolling Stone magazine 2012 list of 500 greatest albums of all time
 
 In this session we will have fun with the
 ["Rolling Stone's definitive list of the 500 greatest albums of all time"](https://www.rollingstone.com/music/music-lists/500-greatest-albums-of-all-time-156826/).
@@ -23,13 +24,15 @@ $ curl -O https://raw.githubusercontent.com/uit-no/python-course-2018/master/ses
 
 ## Exercise
 
-Write a script which:
+In groups, Write a script which:
 - Counts the number of "Radiohead" albums.
 - Prints out all titles of "Radiohead" albums in this list.
 - Prints out all titles of an artist/band that can be provided
   as command line argument (be careful with spaces in band names).
 
-Later adjust your script so that it is case insensitive to input.
+Together:
+- We discuss.
+- We adjust the script so that it is case insensitive to input.
 
 
 ## Optional take-home steps
