@@ -53,8 +53,8 @@ $ curl -O https://gitlab.com/dalton/dalton/raw/master/DALTON/test/dft_properties
 ```
 
 Your task in groups:
-- Extract the "Electronic energy" from the output file.
-- Extract the "Dipole moment" (in Debye) from the output file.
+- Basic: Extract the "Electronic energy" from the output file.
+- Advanced: Extract the "Dipole moment" (in Debye) from the output file.
 
 Together:
 - Adapt the script to accept the file to parse as command line argument.
