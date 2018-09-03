@@ -1,6 +1,6 @@
 
 
-# Session 3.4: Imports and structuring projects (16:15 - 17:00)
+# Session 3.4: Imports and structuring projects (15:45 - 16:30)
 
 
 ## Show how imports work (15 min)

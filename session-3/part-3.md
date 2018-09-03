@@ -1,22 +1,58 @@
-(15:15 - 16:00)
 
 
-# Exercise 3.2: Having fun with IMDb data files
+# Session 3.3: Parsing large files (15:15 - 15:45)
 
-(this is bonus, we will probably not manage more than 3.1)
+## Having fun with [IMDb](https://www.imdb.com) data files
 
-(either explain what the files are or list as task that the students should explore the files)
+- From https://datasets.imdbws.com download `title.basics.tsv.gz` and `title.ratings.tsv.gz`
+  (these datasets contain movie titles and movie ratings):
 
-- From https://datasets.imdbws.com download `title.basics.tsv.gz` and `title.ratings.tsv.gz`.
-- Extract these files.
-- Read both files into a list each and using the two lists find:
-   - Average rating and average number of votes per movie.
-   - 10 movies with highest ratings.
-   - 10 most popular comedies.
-- Rewrite your code to use dictionaries.
+```shell
+$ wget https://datasets.imdbws.com/title.basics.tsv.gz
+$ wget https://datasets.imdbws.com/title.ratings.tsv.gz
+```
 
-(the rest we better do together somehow)
+If you don't have `wget` you can try `curl` instead:
 
-- Create a memory profile for your code (we will detail how).
-- Discuss what problems we will meet if the dataset grows in size and how you would overcome these.
-- Rewrite your code so that it can work with datasets of in principle any size.
+```shell
+$ curl -O https://datasets.imdbws.com/title.basics.tsv.gz
+$ curl -O https://datasets.imdbws.com/title.ratings.tsv.gz
+```
+
+- Extract these files:
+
+```shell
+$ gunzip title.basics.tsv.gz
+$ gunzip title.ratings.tsv.gz
+```
+
+Together:
+- We explore and discuss these files.
+
+Our challenge:
+- Find all movies which contain the word "python".
+- Discuss problems of the following solution:
+
+```python
+"""
+This script will find all movies which
+contain the word "python".
+"""
+
+titles = []
+with open('title.basics.tsv', 'r') as f:
+    for line in f.read().splitlines():
+        if not 'primaryTitle' in line:
+            s = line.split('\t')
+            titles.append(line.split('\t')[2])
+
+for title in titles:
+    if 'python' in title.lower():
+        print(title)
+```
+
+Optional take-home exercises:
+
+- Find the 20 movies with highest ratings (use only those with many votes).
+- Find the 10 most popular comedies.
+- Write your code so that it can work with datasets of in principle any size.
