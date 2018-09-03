@@ -18,7 +18,7 @@
 - Playing with lists / dictionaries in the REPL
 - Slicing lists
 - range
-- looping over elements, enumerate(), reversed(), sorted() and .sort()
+- looping over elements
 - how to copy list and possible pitfalls
 - as soon as we go for functions we work in the editor
 - for functions we start with some repetitive code and abstract it into a function
