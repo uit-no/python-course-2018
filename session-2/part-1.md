@@ -1,37 +1,136 @@
-(9:00 - 10:00)
 
 
-# Recap: lists (10 minutes)
-
-example list of strings and show how we append to it
-
-also show how to pop
-
-number of elements
-
-check whether an element is in the list
+# Session 2.1: Writing functions which manipulate strings (9:00 - 10:00)
 
 
-# String handling (15 minutes)
+## Recap: lists (10 minutes)
 
-We will discuss "+" vs. append/split/join and f-strings vs .format.
+- Start with an example list:
 
-explain why split and join is useful
+```python
+fruits = ['banana', 'orange', 'apple', 'kiwi']
+```
 
-how to build a string out of very many small strings
+- Show how we can append to a list:
+
+```python
+fruits.append('pear')
+fruits.append('cherry')
+```
+
+- Also show how to pop the last element:
+
+```python
+print(fruits)
+
+last_fruit = fruits.pop()
+
+# what do you expect as a result:
+print(fruits)
+print(last_fruit)
+```
+
+- Show how to get the number of elements in a list.
+- Check whether an element is in the list.
 
 
-# Recap: defining functions (10 minutes)
+## String handling (15 minutes)
 
-write a function which shouts (uppercases everything)
+There are many ways to print a string together with variables:
+
+```python
+title = 'Mr.'
+name = 'Bob'
+
+# little control over formatting
+print('hello', title, name, ', how was your day?')
+
+# old way
+print('hello %s %s, how was your day?' % (title, name))
+
+# using format and positional arguments
+print('hello {0} {1}, how was your day?'.format(title, name))
+
+# using format and named arguments
+print('hello {title} {name}, how was your day?'.format(title=title, name=name))
+
+# f-strings since python 3.6
+print(f'hello {title} {name}, how was your day?')
+```
+
+Splitting a string:
+
+```python
+sentence = 'accident-prone carbon-neutral  custom-built aero-plane'
+
+# what do you expect to be the result?
+print(sentence.split())
+print(sentence.split('  '))
+print(sentence.split('-'))
+```
+
+The opposite of `split()` is `join()`:
+
+```python
+fruits = ['banana', 'orange', 'apple', 'kiwi']
+
+result = '---'.join(fruits)
+
+print(result)
+```
+
+What do you think will happen if we do this:
+
+```python
+result = '\n'.join(fruits)
+```
+
+Discuss why/how `split()` and `join()` can be useful.
+
+There are at least two ways to build a string out of shorter strings:
+
+```python
+short_string = 'gallileo '
+
+long_string = ''
+long_string += short_string
+long_string += short_string
+long_string += short_string
+long_string += short_string
+long_string += short_string
+long_string += 'figaro - magnifico'
+
+print(long_string)
+```
+
+Another way:
+
+```python
+short_string = 'gallileo '
+
+long_string = []
+long_string.append(short_string)
+long_string.append(short_string)
+long_string.append(short_string)
+long_string.append(short_string)
+long_string.append(short_string)
+long_string.append('figaro - magnifico')
+
+print(''.join(long_string))
+```
+
+The latter has better scaling.
 
 
-# Collaborative challenge: Function which manipulates a string (10 minutes)
+## Collaborative exercise: function which shouts (10 minutes)
 
-function which splits a string and joins on a character
+Write a function which receives a string and "shouts":
+
+- As a first version it should uppercase the string (e.g. converts `hello everybody` to `HELLO EVERYBODY`).
+- As a second version it should add some exclamation marks (e.g. converts `do not panic` to `!!!DO!!!NOT!!!PANIC!!!`).
 
 
-# Exercise 2.1: String manipulation (15 minutes)
+## Exercise: String manipulation (15 minutes)
 
 Write a function which receives a string, e.g. "James Bond" and prints: "My name is Bond, James Bond".
 
