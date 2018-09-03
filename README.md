@@ -4,7 +4,7 @@
 
 ## Session 1: Introduction to programming and Python (Lars)
 
-- [First steps](session-1/first contact.ipynb)
+- [First steps](session-1/first_contact.ipynb)
   - expressions, statements, variables, calling functions
   - basic data types and objects
   - how to print things, f-strings
