@@ -32,6 +32,7 @@ print(last_fruit)
 
 - Show how to get the number of elements in a list.
 - Check whether an element is in the list.
+- Lists can be sorted.
 
 
 ## String handling (15 minutes)
@@ -119,7 +120,8 @@ long_string.append('figaro - magnifico')
 print(''.join(long_string))
 ```
 
-The latter has better scaling.
+The latter has better scaling
+if we append to a string very many times.
 
 
 ## Collaborative exercise: function which shouts (10 minutes)
