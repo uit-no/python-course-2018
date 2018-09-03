@@ -31,7 +31,7 @@
 - [2.3: Extracting data](session-2/part-3.md)
 
 
-## Session 3a: Input/output on larger files (Radovan)
+## Session 3: More I/O and structuring projects (Radovan)
 
 - Topics
   - templating
@@ -44,16 +44,6 @@
 - [3.1](session-3/part-1.md)
 - [3.2](session-3/part-2.md)
 - [3.3](session-3/part-3.md)
-
-
-## Session 3b: Structuring projects (Radovan)
-
-- Topics
-  - understanding imports
-  - underscore convention
-  - collecting functions into modules
-  - we will only mention packages
-  - pip/conda install and requirements.txt
 - [3.4: Imports and structuring projects](session-3/part-4.md)
 
 
