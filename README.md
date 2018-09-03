@@ -11,7 +11,6 @@
   - basic control flow (if-then-else, while)
   - writing functions
 - Python's useful data structures: list, tuple, dict, [set]
-- [PEP8, pycodestyle, pylint]
 
 
 ### Examples/challenges:
