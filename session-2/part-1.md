@@ -138,3 +138,4 @@ Write a function which receives a string, e.g. "James Bond" and prints: "My name
 - Work on solutions incrementally.
 - It is totally OK to solve it only halfway, but if you have time left,
   go for the "My name is Bond, James Bond".
+- Good idea to work in pairs and discuss.
