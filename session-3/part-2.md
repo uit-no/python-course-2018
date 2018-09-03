@@ -18,7 +18,7 @@ $ wget https://raw.githubusercontent.com/uit-no/python-course-2018/master/sessio
 If you don't have `wget` you can try `curl` instead:
 
 ```shell
-$ curl https://raw.githubusercontent.com/uit-no/python-course-2018/master/session-3/data/top-500.txt --output top-500.txt
+$ curl -O https://raw.githubusercontent.com/uit-no/python-course-2018/master/session-3/data/top-500.txt
 ```
 
 ## Exercise
