@@ -34,14 +34,12 @@
 ## Session 3: More I/O and structuring projects (Radovan)
 
 - Topics
-  - templating
-  - simple example of running non-python out of python
   - memory example for reading a large file
   - parsing large files, iterators
   - prepare an example which prints consumed memory
   - then we show naive way and better way
   - reading and parsing a large-ish file
-- [3.1](session-3/part-1.md)
+- [3.1: Templating and launching shell commands](session-3/part-1.md)
 - [3.2](session-3/part-2.md)
 - [3.3](session-3/part-3.md)
 - [3.4: Imports and structuring projects](session-3/part-4.md)
