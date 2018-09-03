@@ -26,15 +26,9 @@
 
 ## Session 2: String handling and input/output (Radovan)
 
-- Topics
-  - string handling: f-strings vs .format, “+” vs. append/split/join
-  - basic file input/output
-  - parsing and data extraction
-  - passing command line arguments to a script
-  - error handling: IOError, traceback, try/except
-- [2.1](session-2/part-1.md)
-- [2.2](session-2/part-2.md)
-- [2.3](session-2/part-3.md)
+- [2.1: Writing functions which manipulate strings](session-2/part-1.md)
+- [2.2: File input/output](session-2/part-2.md)
+- [2.3: Extracting data](session-2/part-3.md)
 
 
 ## Session 3a: Input/output on larger files (Radovan)

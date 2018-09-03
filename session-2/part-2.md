@@ -1,6 +1,6 @@
 
 
-# Session 2.2: File I/O (10:15 - 11:00)
+# Session 2.2: File input/output (10:15 - 11:00)
 
 
 ## Getting started with File I/O (15 min)
