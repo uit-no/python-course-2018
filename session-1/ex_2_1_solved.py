@@ -35,8 +35,8 @@ def comment_on_age_difference(age_claim, age_real):
 
     # still here (not returned)? then age_claim < age_real
     diff = age_real - age_claim
-    barrage_text = diff * "Shame!\n"
-    return "Oh, you...\n" + barrage_text
+    barrage_of_shames = diff * "Shame!\n"
+    return "Oh, you...\n" + barrage_of_shames
 
 
 # The stuff that follows is basically the same as in the old exercise. However, I've added
