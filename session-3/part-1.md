@@ -55,11 +55,11 @@ import os
 os.system('echo hello from your shell')
 ```
 
-Then, using `suprocess.check_output()` e.g.:
+Then, using `subprocess.check_output()` e.g.:
 
 ```python
 import subprocess
-output = suprocess.check_output(['echo', 'hello', 'from', 'your', 'shell'])
+output = subprocess.check_output(['echo', 'hello', 'from', 'your', 'shell'])
 ```
 
 - Discuss when it could be useful
