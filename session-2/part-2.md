@@ -56,7 +56,7 @@ def song(sounds):
 
 
 sounds = {'cow': 'moo',
-          'pig': 'snort',
+          'pig': 'oink',
           'duck': 'quack'}
 
 print(song(sounds))
