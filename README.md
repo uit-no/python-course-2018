@@ -54,7 +54,7 @@
   - collecting functions into modules
   - we will only mention packages
   - pip/conda install and requirements.txt
-- [3.4](session-3/part-4.md)
+- [3.4: Imports and structuring projects](session-3/part-4.md)
 
 
 ## Session 4: Jupyter, plotting, and Pandas (Dan)

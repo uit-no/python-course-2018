@@ -1,7 +1,9 @@
-(16:15 - 17:00)
 
 
-# Show how imports work
+# Session 3.4: Imports and structuring projects (16:15 - 17:00)
+
+
+## Show how imports work (15 min)
 
 Write a script called `hello.py` with the following code:
 
@@ -36,6 +38,13 @@ hello alice, how is it going?
 ```
 
 - Discuss why we see this.
+- Add the following code to `hello.py` and observe
+  what happens when you run `hello.py` or `main.py`:
+
+```python
+print(f'__name__ in hello.py evaluates to {__name__}')
+```
+
 - Solve this problem by introducing this structure:
 
 ```python
@@ -45,7 +54,7 @@ if __name__ == '__main__':
 ```
 
 
-# Exercise: Structuring projects
+## Exercise: Structuring projects (30 min)
 
 As an exercise we will improve an [example script](structuring-exercise/example.py).
 
@@ -66,7 +75,8 @@ In groups of two:
   collect the dependencies into `requirements.txt`. Discuss why.
 - Check your code with `pycodestyle`.
 
-Together:
+Together we discuss:
 
-- We discuss possible solutions.
-- We discuss `requirements.txt`.
+- Possible solutions.
+- Underscore convention.
+- `requirements.txt` or `Pipfile`.
