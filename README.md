@@ -34,7 +34,7 @@
 ## Session 3: More I/O and structuring projects (Radovan)
 
 - [3.1: Templating and launching shell commands](session-3/part-1.md)
-- [3.2: Mode data extraction](session-3/part-2.md)
+- [3.2: More data extraction](session-3/part-2.md)
 - [3.3: Parsing large files](session-3/part-3.md)
 - [3.4: Imports and structuring projects](session-3/part-4.md)
 
