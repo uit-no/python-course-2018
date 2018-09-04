@@ -10,7 +10,8 @@
   - how to print things, f-strings
   - basic control flow (if-then-else, while)
   - writing functions
-- Python's useful data structures: list, tuple, dict, [set]
+- Python's built-in [data structures](session-1/data_structures.ipynb)
+  - list, tuple, set, and dict
 
 
 ### Examples/challenges:
