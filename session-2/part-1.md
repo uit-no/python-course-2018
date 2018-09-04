@@ -33,9 +33,9 @@ print(last_fruit)
 - Show all list methods in an IPython shell.
 - Show how to get the number of elements in a list.
 - Show how to get a specific element of the list.
-- Show how to get the last element of the list.
+- Show how to get the last element of the list without removing it.
 - Check whether an element is in the list - this works with strings, too.
-- Lists can be sorted.
+- Lists can be sorted and reversed.
 
 
 ## String handling (15 minutes)
