@@ -55,8 +55,8 @@ def test_comment_on_age_difference(p1, p2, expected):
         print(f"error: comment_on_age_difference({p1}, {p2}) returned:\n{r}\n\nBut should have returned:\n{expected}")
         sys.exit(1)
 for i in range(30, 40):
-    test_comment_on_age_difference(41, i, "Wow, you claim that you're older than you actually are?!")
-    test_comment_on_age_difference( i, i, "I can't believe you didn't lie about your age!")
+    test_comment_on_age_difference(41, i, "Wow, you claim that you're older than you actually are!")
+    test_comment_on_age_difference( i, i, "Wow, you didn't lie about your age! :)")
 
 # tests for age < age_real
 for i in range(30, 40):
