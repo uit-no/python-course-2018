@@ -36,6 +36,7 @@ print(last_fruit)
 - Show how to get the last element of the list without removing it.
 - Check whether an element is in the list - this works with strings, too.
 - Lists can be sorted and reversed.
+- We can loop over a list (we move to the editor for this).
 
 
 ## String handling (15 minutes)
