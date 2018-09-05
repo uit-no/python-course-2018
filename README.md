@@ -53,3 +53,9 @@
 - these are discussed together
 - instructors try to live-code solutions for real-life challenges
   with feedback from everybody
+  
+
+# Great resources
+
+- https://realpython.com
+- https://docs.python-guide.org
